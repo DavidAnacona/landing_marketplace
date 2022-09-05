@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 function App() {
   return (
     <div className="App">
-      <Stack sx={{ width: '100%', height: '100%', backgroundImage: "url('./assets/background-main-landian.svg')" }}>
+      <Stack sx={{ width: '100%', height: '100%', backgroundImage: "url('./assets/background-main-landian-min.png')" }}>
         <Stack sx={{ width: '100%', height: '100vh' }}>
           <Stack sx={{ width: '100%', flexDirection: 'row', alignItems: 'center', height: '120px', justifyContent: 'space-between' }}>
             <Box sx={{ marginTop: '180px' }}>
