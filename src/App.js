@@ -48,7 +48,7 @@ function App() {
             </Box>
             <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px' }}>
               <img src='./assets/seccion2-planet.png' alt='LANDIAN' style={{ width: '367px', height: '307px', marginLeft: '-16px', marginTop: '55px' }} />
-              <Typography sx={{ marginTop: '-40px', fontSize: '12px', opacity: '0.8', marginTop: '5px' }}>3. SET UP THE <b>LANDIAN ECOSYSTEM</b></Typography>
+              <Typography sx={{ marginTop: '5px', fontSize: '12px', opacity: '0.8' }}>3. SET UP THE <b>LANDIAN ECOSYSTEM</b></Typography>
             </Box>
           </Stack>
           <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '100px' }}>LET'S START!</Button>
