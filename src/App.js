@@ -53,6 +53,52 @@ function App() {
           </Stack>
           <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '100px' }}>LET'S START!</Button>
         </Stack>
+        <Stack sx={{ width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+          <Stack sx={{ color: 'white', fontSize: '32px', fontWeight: '400' }}>
+            <Typography sx={{ fontSize: '20px', lineHeight: '19.14px' }}><b>6 DISTRICTS TO EXPLORE</b> WITH THE SAME TOPOGRAPHY AS THE EARTH.</Typography>
+          </Stack>
+          <Stack sx={{ flexDirection: 'row', color: 'white', marginTop: '80px' }}>
+            <Box marginLeft={-45}>
+              <Box maxWidth={230} paddingTop={5}>
+                <Typography paragraph textAlign={'left'} fontSize={20} fontWeight={300}><b>CHOOSE YOUR LAND</b> IN ANY OF OUR SIX DISTRICT</Typography>
+              </Box>
+              <img src='./assets/seccion3.svg' alt='LANDIAN' style={{ width: '866px', height: '487px', marginTop: '-120px', marginLeft: '-150px' }} />
+            </Box>
+            <Box>
+              <Box textAlign={'left'} maxWidth={200} marginTop={16} marginLeft={10}>
+                <Typography paragraph fontSize={20} fontWeight={300}>ENTERTAINMENT</Typography>
+                <Typography paragraph fontSize={20} fontWeight={300}><b>FINANCE AND EDUCATION</b></Typography>
+                <Typography paragraph fontSize={20} fontWeight={300}>LIFESTYLE</Typography>
+                <Typography paragraph fontSize={20} fontWeight={300}><b>TECH AND SCIENCE</b></Typography>
+                <Typography paragraph fontSize={20} fontWeight={300}>SPORTS</Typography>
+                <Typography paragraph fontSize={20} fontWeight={300}><b>ADULTS</b></Typography>
+              </Box>
+              <img src='./assets/oculus.svg' alt='LANDIAN' style={{ width: '900px', height: '920px', marginRight: '-600px', marginTop: '-420px' }} />
+            </Box>
+          </Stack>
+          <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '-350px' }}>BUY LNDA</Button>
+        </Stack>
+        <Stack sx={{ width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+          <Stack sx={{ color: 'white', fontSize: '32px', fontWeight: '400', marginTop: '50px' }}>
+            <Typography variant='h4'>OUR <b>MARKETPLACE</b> GUIDES YOU <b>TO THE GATES OF LANDIAN</b></Typography>
+          </Stack>
+          <Stack sx={{ flexDirection: 'row', color: 'white', marginTop: '80px' }}>
+            <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px', marginRight: '50px' }}>
+              <img src='./assets/seccion2-money.png' alt='LANDIAN' style={{ width: '500px', height: '409px', marginLeft: '-80px' }} />
+              <Typography sx={{ marginTop: '-40px', fontSize: '20px', opacity: '0.8' }}>1. BUY <b>$LNDA</b> NOW</Typography>
+            </Box>
+            <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px', marginRight: '50px' }}>
+              <img src='./assets/seccion2-golden.png' alt='LANDIAN' style={{ width: '300px', height: '400px', transform: 'rotate(-10.6deg)', marginTop: '10px' }} />
+              <Typography sx={{ marginTop: '-40px', fontSize: '12px', opacity: '0.8' }}>2. DECIDE <b>WHAT YOU'RE GOING</b></Typography>
+              <Typography sx={{ fontSize: '12px', opacity: '0.5' }}><b>TO BUILD IN LANDIAN</b></Typography>
+            </Box>
+            <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px' }}>
+              <img src='./assets/seccion2-planet.png' alt='LANDIAN' style={{ width: '367px', height: '307px', marginLeft: '-16px', marginTop: '55px' }} />
+              <Typography sx={{ marginTop: '5px', fontSize: '12px', opacity: '0.8' }}>3. SET UP THE <b>LANDIAN ECOSYSTEM</b></Typography>
+            </Box>
+          </Stack>
+          <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '100px' }}>LET'S START!</Button>
+        </Stack>
       </Stack>
     </div >
   );
