@@ -80,24 +80,28 @@ function App() {
         </Stack>
         <Stack sx={{ width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
           <Stack sx={{ color: 'white', fontSize: '32px', fontWeight: '400', marginTop: '50px' }}>
-            <Typography variant='h4'>OUR <b>MARKETPLACE</b> GUIDES YOU <b>TO THE GATES OF LANDIAN</b></Typography>
           </Stack>
-          <Stack sx={{ flexDirection: 'row', color: 'white', marginTop: '80px' }}>
-            <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px', marginRight: '50px' }}>
-              <img src='./assets/seccion2-money.png' alt='LANDIAN' style={{ width: '500px', height: '409px', marginLeft: '-80px' }} />
-              <Typography sx={{ marginTop: '-40px', fontSize: '20px', opacity: '0.8' }}>1. BUY <b>$LNDA</b> NOW</Typography>
+          <Stack sx={{ flexDirection: 'column', color: 'white' }}>
+            <Box textAlign={'left'} marginLeft={4} marginBottom={-11}>
+              <Typography paragraph sx={{ fontSize: '32px', lineHeight: '30px', fontWeight: '300', marginBottom: '36px' }}>WELCOME TO PLANET LANDIAN</Typography>
+              <Typography paragraph sx={{ fontSize: '42px', lineHeight: '30px', fontWeight: '700' }}><b>TIER 1</b></Typography>
             </Box>
-            <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px', marginRight: '50px' }}>
-              <img src='./assets/seccion2-golden.png' alt='LANDIAN' style={{ width: '300px', height: '400px', transform: 'rotate(-10.6deg)', marginTop: '10px' }} />
-              <Typography sx={{ marginTop: '-40px', fontSize: '12px', opacity: '0.8' }}>2. DECIDE <b>WHAT YOU'RE GOING</b></Typography>
-              <Typography sx={{ fontSize: '12px', opacity: '0.5' }}><b>TO BUILD IN LANDIAN</b></Typography>
+            <Box maxWidth={650} marginLeft={115} marginBottom={8}>
+              <Typography fontSize={20} fontWeight={400} textAlign={'right'}>Tier 1 of the Landian metaverse is divided into 6 districts, each composed of 120,000 lots, and 73,520,664 sq meters to build upon. </Typography>
             </Box>
-            <Box sx={{ border: '1px solid white', borderRadius: '103px', width: '333px', height: '449px' }}>
-              <img src='./assets/seccion2-planet.png' alt='LANDIAN' style={{ width: '367px', height: '307px', marginLeft: '-16px', marginTop: '55px' }} />
-              <Typography sx={{ marginTop: '5px', fontSize: '12px', opacity: '0.8' }}>3. SET UP THE <b>LANDIAN ECOSYSTEM</b></Typography>
+            <img src='./assets/seccion4.svg' alt='LANDIAN' style={{ width: '1700px', height: '900px', marginLeft: '-60px', marginTop: '-160px' }} />
+            <img src='./assets/hand-seccion4.svg' alt='LANDIAN' style={{ width: '650px', height: '915px', marginLeft: '1080px', marginTop: '0px', position: 'absolute', transform: 'rotate(-1.76deg)' }} />
+            <Box sx={{ opacity: '0.6', textAlign: 'center', color: 'white', marginTop: '-330px', border: '1px solid white', maxWidth: '200px', height: '208px', marginLeft: '1050px', lineHeight: '16px' }}>
+              <Typography fontSize={17} >BIOMES:</Typography>
+              <Typography fontSize={13} marginTop={1}>TUNDRA</Typography>
+              <Typography fontSize={13} marginTop={1}>FOREST</Typography>
+              <Typography fontSize={13} marginTop={1}>SAVANNA</Typography>
+              <Typography fontSize={13} marginTop={1}>JUNGLE</Typography>
+              <Typography fontSize={13} marginTop={1}>PLAIN</Typography>
+              <Typography fontSize={13} marginTop={1}>DESERT</Typography>
             </Box>
+            <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '20px', marginLeft: '10px' }}>GET MY LAND</Button>
           </Stack>
-          <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '100px' }}>LET'S START!</Button>
         </Stack>
       </Stack>
     </div >
