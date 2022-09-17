@@ -1,4 +1,4 @@
-import { Stack, Box, Button, Typography } from '@mui/material';
+import { Stack, Box, Button, Typography, Input } from '@mui/material';
 import './App.css';
 import ReactPlayer from 'react-player';
 
@@ -73,7 +73,7 @@ function App() {
                 <Typography paragraph fontSize={20} fontWeight={300}>SPORTS</Typography>
                 <Typography paragraph fontSize={20} fontWeight={300}><b>ADULTS</b></Typography>
               </Box>
-              <img src='./assets/oculus.svg' alt='LANDIAN' style={{ width: '900px', height: '920px', marginRight: '-600px', marginTop: '-420px' }} />
+              <img src='./assets/oculus.svg' alt='LANDIAN' style={{ width: '880px', height: '920px', marginRight: '-600px', marginTop: '-420px' }} />
             </Box>
           </Stack>
           <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '-350px' }}>BUY LNDA</Button>
@@ -101,6 +101,57 @@ function App() {
               <Typography fontSize={13} marginTop={1}>DESERT</Typography>
             </Box>
             <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginTop: '20px', marginLeft: '10px' }}>GET MY LAND</Button>
+          </Stack>
+        </Stack>
+        <Stack sx={{ backgroundImage: "url('./assets/background-metal.svg')" }}>
+          <Stack sx={{ width: '100%', height: '100vh', justifyContent: 'center' }}>
+            <Stack sx={{ color: 'white', fontSize: '32px', fontWeight: '400', marginTop: '50px', flexDirection: 'row', justifyContent: 'space-around' }}>
+              <Typography paragraph sx={{ fontSize: '20px', fontWeight: '300', maxWidth: '800px', textAlign: 'left', lineHeight: '50px', marginLeft: '-100px' }}><b>LANDIAN</b> IS A DECENTRALIZED <b>METAVERSE </b> WITH <b>SIX DISTRICT AVAILABLE FOR GAMING, PURCHASING, SELLING, AND LEARNING NEW WAYS TO INTERACT WITH OTHERS.</b></Typography>
+              <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white', marginLeft: '-200px' }}>GET THE TOKEN</Button>
+            </Stack>
+            <Stack sx={{ color: 'white', fontSize: '32px', fontWeight: '400', marginTop: '50px', flexDirection: 'row' }}>
+              <img src='./assets/statistic.png' alt='LANDIAN' style={{ width: '950px', height: '332px', marginLeft: '150px' }} />
+              <img src='./assets/seccion2-money.png' alt='LANDIAN' style={{ width: '750px', height: '700px', marginTop: '-200px', marginLeft: '-40px' }} />
+            </Stack>
+          </Stack>
+          <Stack sx={{ wigth: '100vw', height: '100vh' }}>
+            <Stack sx={{ width: '100%', height: '100%', backgroundImage: "url('./assets/background-6.svg')", backgroundSize: 'cover' }} justifyContent={'space-between'}>
+              <Stack sx={{ justifyContent: 'end', alignItems: 'end', marginTop: '100px', marginRight: '150px' }}>
+                <Button sx={{ backgroundColor: 'black', color: 'white', fontSize: '20px', fontWeight: '700', width: '233px', height: '75px', borderRadius: '100px', border: '1px solid white' }}>GET MY LAND</Button>
+              </Stack>
+              <Stack alignItems={'center'} marginBottom={'20'}>
+                <Typography paragraph textAlign={'center'} fontSize={36} fontWeight={300} color={'white'}>Enjoy the best graphics with the magic of <b>UNREAL 5</b></Typography>
+                <img src='./assets/discord.png' alt='Discord' style={{ width: '160px', height: '128px', marginTop: '0px', marginLeft: '0px' }} />
+              </Stack>
+            </Stack>
+          </Stack>
+          <Stack sx={{ width: '100%', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+            <img src='./assets/twitter-landian.svg' alt='Twitter' style={{ width: '837px', height: '311px', marginTop: '0px', marginLeft: '0px' }} />
+            <Stack sx={{ flexDirection: 'row', marginTop: '60px' }}>
+              <Input variant='outlined' sx={{ width: '577px', height: '38px', borderRadius: '100px', border: '1px solid white', color: 'white' }} />
+              <Typography paragraph sx={{ fontSize: '16px', fontWeight: '700', color: 'white', marginLeft: '20px', marginTop: '10px' }}>SUBSCRIBE TO OUR NEWSLETTER</Typography>
+            </Stack>
+            <Stack flexDirection={'row'}>
+              <Stack sx={{ color: 'white', marginTop: '100px', lineHeight: '19px', width: '600px', marginRight: '400px', textAlign: 'left' }}>
+                <Box>
+                  <Typography paragraph sx={{ fontSize: '20px', fontWeight: '400' }}>EVERYTHING LOOKS <b>BETTER IN LANDIAN;</b></Typography>
+                  <Typography paragraph sx={{ fontSize: '20px', fontWeight: '400' }}><b>BUY YOUR FIRST LAND</b> AND START BUILDING.</Typography>
+                </Box>
+                <Box sx={{ marginTop: '80px' }}>
+                  <Typography paragraph sx={{ fontSize: '20px', fontWeight: '400' }}>KEEP UP WITCH EVERYTHING HAPPENING IN <b>LANDIAN.</b></Typography>
+                  <Typography paragraph sx={{ fontSize: '20px', fontWeight: '400' }}><b>LET'S CONNECT!</b></Typography>
+                </Box>
+              </Stack>
+              <Stack sx={{ flexDirection: 'row', marginLeft: '50px', alignItems: 'center', letterSpacing: '50%' }}>
+                <Typography sx={{ color: 'white', fontSize: '20px', fontWeight: '700', marginRight: '-100px', marginBottom: '-100px' }}>L A N D I A N . I O</Typography>
+                <img src='./assets/human-landian.svg' alt='Human' style={{ width: '450px', height: '450px' }} />
+              </Stack>
+            </Stack>
+            <Stack flexDirection={'row'}>
+              <img src='./assets/logo-twitter.svg' alt='Twitter' style={{ width: '38px', height: '35px', marginRight: '20px' }} />
+              <img src='./assets/logo-instagram.svg' alt='Instagram' style={{ width: '38px', height: '35px', marginRight: '20px' }} />
+              <img src='./assets/logo-youtube.svg' alt='Youtube' style={{ width: '38px', height: '35px', marginRight: '20px' }} />
+            </Stack>
           </Stack>
         </Stack>
       </Stack>
